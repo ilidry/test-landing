@@ -1,0 +1,128 @@
+* {
+	font-family: "Myriad Pro", sans-serif;
+}
+
+/* header */
+
+header {
+	background: url(../img/header-background.png) no-repeat top center / cover;
+	color: #fff;
+}
+
+.title {
+	text-align: center;
+	margin-top: 40%;
+	padding-bottom: 50px;
+}
+
+h1 {
+	font-size: 52px;
+}
+
+h2 {
+	font-size: 36px;
+}
+
+.header-button > button {
+	border: none;
+	height: 50px;
+	background-color: #998675;
+	font-size: 14px;
+	width: 100%;
+	color: #fff;
+	margin-bottom: 150px;
+}
+
+/* features */
+
+.features_item {
+	color: #555555;
+	text-align: center;
+	margin: 80px 0;
+	line-height: 30px;
+}
+
+.features_item > h3 {
+	padding: 20px 0 15px 0;
+}
+
+.features_item > img {
+	width: 49px;
+	height: 45px;
+}
+
+.features_item > hr {
+	width: 70px;
+	color: #f1eee9;
+	border: 2px solid #f1eee9;
+}
+
+.features_item:hover > h3 {
+color: #c7b299;
+}
+
+.features_item:hover > hr {
+color: #c7b299;
+border-color: #c7b299;
+}
+
+/*realisation*/
+
+.realisation {
+	background-color: #fbfaf8;
+	color: #8c8c8c;
+	text-align: center;
+}
+
+.realisation_title {
+	font-size: 30px;
+	color: #555555;
+	padding: 80px 0 25px 0;
+}	
+
+.realisation_subtitle {
+	margin: 0 auto;
+	width: 60%;
+	margin-bottom: 36px;
+}
+
+.realization_img {
+	width: 80%
+}
+
+/* theme */
+
+.theme {
+	color: #c7b299;
+	background: linear-gradient(45deg, #211b19, #4e3427);
+	padding: 50px 0;
+}
+
+.theme_container {
+	margin: 0 auto;
+	width: 75%;
+	display: flex;
+	justify-content: space-evenly;
+	align-items: center;
+}
+
+.theme_bold {
+	font-weight: bold;
+	color: #fff;
+}
+
+.theme_text {
+	color: #615855;
+}
+
+.theme_container > button {
+	text-transform: uppercase;
+	font-weight: bold;
+	border: none;
+	height: 45px;
+	width: 170px;
+	background-color: #998675;
+	color: #fff;
+	font-size: 14px;
+
+}
